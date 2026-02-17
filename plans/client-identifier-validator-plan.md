@@ -1,7 +1,7 @@
 
 ### Dependencies
 
-**IdCraft.Cimd project:**
+**AuthCraft.Cimd project:**
 - No new dependencies required (uses `System.Uri` from .NET Standard 2.0)
 - May need: `Microsoft.Extensions.DependencyInjection.Abstractions` (verify - see Open Questions)
 
@@ -17,7 +17,7 @@
 
 ### Phase 1: Core Implementation
 
-- [ ] Create `Validation` namespace folder in `IdCraft.Cimd` project
+- [ ] Create `Validation` namespace folder in `AuthCraft.Cimd` project
 - [ ] Define `IClientIdentifierValidator` interface
   - [ ] Add XML documentation comments
   - [ ] Define `bool IsValid(string clientIdentifier)` method
@@ -35,7 +35,7 @@
 
 ### Phase 2: Dependency Injection Setup
 
-- [ ] Create `Extensions` namespace folder in `IdCraft.Cimd` project
+- [ ] Create `Extensions` namespace folder in `AuthCraft.Cimd` project
 - [ ] Create `ServiceCollectionExtensions` class
   - [ ] Implement `AddClientIdentifierValidator()` extension method
   - [ ] Register `IClientIdentifierValidator` as singleton
@@ -44,10 +44,10 @@
 
 ### Phase 3: Unit Tests
 
-- [ ] Create `tests/IdCraft.Cimd.Tests` project
+- [ ] Create `tests/AuthCraft.Cimd.Tests` project
   - [ ] Create test project file targeting .NET Standard 2.0 compatible framework
   - [ ] Add NuGet packages mentioned above
-  - [ ] Add project reference to `IdCraft.Cimd`
+  - [ ] Add project reference to `AuthCraft.Cimd`
 - [ ] Create `Validation` test folder
 - [ ] Create `ClientIdentifierValidatorTests` class
   - [ ] **Valid scenarios:**

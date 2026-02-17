@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace IdCraft.Cimd.DuendeIdentityServer
+namespace AuthCraft.Cimd.DuendeIdentityServer
 {
     public class Class1
     {

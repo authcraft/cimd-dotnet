@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace IdCraft.Cimd.Validation
+namespace AuthCraft.Cimd.Validation
 {
     /// <summary>
     /// Default implementation of <see cref="IClientIdentifierValidator"/> that validates

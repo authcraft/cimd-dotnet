@@ -5,13 +5,13 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdCraft.Cimd", "src\IdCraft.Cimd\IdCraft.Cimd.csproj", "{4CC6C0DC-138C-4AB3-98A0-347987593991}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthCraft.Cimd", "src\AuthCraft.Cimd\AuthCraft.Cimd.csproj", "{4CC6C0DC-138C-4AB3-98A0-347987593991}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdCraft.Cimd.DuendeIdentityServer", "src\IdCraft.Cimd.DuendeIdentityServer\IdCraft.Cimd.DuendeIdentityServer.csproj", "{920155A0-E543-431C-A7B5-E07BE27D49F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthCraft.Cimd.DuendeIdentityServer", "src\AuthCraft.Cimd.DuendeIdentityServer\AuthCraft.Cimd.DuendeIdentityServer.csproj", "{920155A0-E543-431C-A7B5-E07BE27D49F1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F8E9A4C3-8B6D-4F1E-9C2A-3D5E7F9A1B2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdCraft.Cimd.Tests", "tests\IdCraft.Cimd.Tests\IdCraft.Cimd.Tests.csproj", "{A1B2C3D4-E5F6-7890-1234-567890ABCDEF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthCraft.Cimd.Tests", "tests\AuthCraft.Cimd.Tests\AuthCraft.Cimd.Tests.csproj", "{A1B2C3D4-E5F6-7890-1234-567890ABCDEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

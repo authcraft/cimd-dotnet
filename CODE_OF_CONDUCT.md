@@ -1,4 +1,4 @@
-# Code of Conduct - ID Craft .NET CIMD library
+# Code of Conduct - authcraft .NET CIMD library
 
 ## Our Pledge
 
@@ -55,7 +55,7 @@ representative at an online or offline event.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behaviour may be
-reported to the community leaders responsible for enforcement at <contact@idcraft.io>.
+reported to the community leaders responsible for enforcement at <contact@authcraft.io>.
 All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the

@@ -1,8 +1,8 @@
 using AutoFixture.Xunit2;
-using IdCraft.Cimd.Validation;
+using AuthCraft.Cimd.Validation;
 using Xunit;
 
-namespace IdCraft.Cimd.Tests.Validation
+namespace AuthCraft.Cimd.Tests.Validation
 {
     public class ClientIdentifierValidatorTests
     {

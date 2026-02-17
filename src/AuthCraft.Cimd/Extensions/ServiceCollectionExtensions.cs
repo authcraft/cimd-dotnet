@@ -1,8 +1,8 @@
-using IdCraft.Cimd.Validation;
+using AuthCraft.Cimd.Validation;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 
-namespace IdCraft.Cimd.Extensions
+namespace AuthCraft.Cimd.Extensions
 {
     /// <summary>
     /// Extension methods for configuring CIMD services in an <see cref="IServiceCollection"/>.

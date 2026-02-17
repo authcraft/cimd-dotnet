@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\IdCraft.Cimd\IdCraft.Cimd.csproj" />
+    <ProjectReference Include="..\..\src\AuthCraft.Cimd\AuthCraft.Cimd.csproj" />
   </ItemGroup>
 
 </Project>

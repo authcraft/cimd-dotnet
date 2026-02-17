@@ -1,4 +1,4 @@
-namespace IdCraft.Cimd.Validation
+namespace AuthCraft.Cimd.Validation
 {
     /// <summary>
     /// Validates client identifiers according to the OAuth Client ID Metadata Document specification.

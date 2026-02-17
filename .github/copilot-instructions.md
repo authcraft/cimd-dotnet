@@ -1,4 +1,4 @@
-# IdCraft CIMD Library Guidelines
+# authcraft CIMD Library Guidelines
 
 * [Product Vision and Goals](../product.md): Understand the high-level vision and objectives of the product to ensure alignment with business goals.
 * [System Architecture and Design Principles](../architecture.md): Overall system architecture, design patterns, and design principles that guide the development process.

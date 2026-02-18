@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restore
+        run: dotnet restore AuthCraft.Cimd.sln
+
+      - name: Build
+        run: dotnet build AuthCraft.Cimd.sln --configuration Release --no-restore
+
+      - name: Test
+        run: dotnet test AuthCraft.Cimd.sln --configuration Release --no-build --verbosity normal

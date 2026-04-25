@@ -8,9 +8,9 @@ It provides HTTP retrieval of client metadata documents plus schema and content 
 
 ## Documentation
 
-- [Product Vision and Goals](product.md)
-- [System Architecture and Design Principles](architecture.md)
-- [Coding Guidelines](coding-style.md)
+- [Product Vision and Goals](docs/product.md)
+- [System Architecture and Design Principles](docs/architecture.md)
+- [Coding Guidelines](docs/coding-style.md)
 - [Contributing Guidelines](CONTRIBUTING.md)
 - [Code of Conduct](CODE_OF_CONDUCT.md)
 - [License](LICENSE)

@@ -1,0 +1,9 @@
+---
+description: authcraft CIMD library project rules
+globs: ["**/*.cs", "**/*.csproj", "**/*.sln"]
+alwaysApply: true
+---
+
+# authcraft CIMD Library Guidelines
+
+See [docs/index.md](../../docs/index.md) for documentation covering product vision, architecture, coding style, and getting started.
